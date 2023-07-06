@@ -39,10 +39,6 @@ options = os.listdir(os.path.join('data', 'Images'))
 selected_image = st.selectbox('Choose an image', options=options)
 
 image_path = os.path.join('data', 'Images', selected_image)
-image_path2 = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
-
-if image_path2 is not None:
-    image_path = image_path2
 
 if image_path is not None:
     image = load_img(image_path, target_size=(224, 224))
