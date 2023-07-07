@@ -15,8 +15,7 @@ tf.config.set_visible_devices([], 'GPU')
 st.set_page_config(layout="wide")
 with st.sidebar:
     st.image(
-        'https://media.istockphoto.com/id/1211571449/vector/artificial-intelligence-logo-artificial-intelligence-and-machine-learning-concept-vector.jpg'
-        '-Artificial-Intelligence-In-Art-And-Design/960x0.jpg?format=jpg&width=960')
+        'https://media.istockphoto.com/id/1211571449/vector/artificial-intelligence-logo-artificial-intelligence-and-machine-learning-concept-vector.jpg?s=612x612&w=0&k=20&c=gYv4Ha0tkFNyJTdtcH_USc6a6kg5q_dXCYIB_7LXVKs=')
     st.title("VGG16 and LSTM")
     st.info(
         "This is a model that can help in generating artificial captions for the images provided to it.")
