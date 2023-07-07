@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 with st.sidebar:
     st.image(
         'https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png')
-    st.title("VGG16 and LSTM")
+    st.title("VGG16 with LSTM layer")
     st.info(
         "This is a model that can help in generating artificial captions for the images provided to it.")
 
