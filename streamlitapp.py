@@ -23,6 +23,7 @@ with st.sidebar:
 st.title("Image Captioning with VGG and LSTM")
 
 tab1,tab2 = st.tabs(["Demonstration","About"])
+
 with tab1:
     vgg_model = VGG16()
     vgg_model = Model(inputs=vgg_model.inputs, outputs=vgg_model.layers[-2].output)
